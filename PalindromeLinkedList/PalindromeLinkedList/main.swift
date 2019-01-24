@@ -20,10 +20,8 @@ func LRUTest() {
 func testPalindrome() {
     var string = LinkList(data: "w")
     string.appendElement("e")
-    string.appendElement("e")
-    string.appendElement("w")
+
     print(string)
-    print(string.isPalindrome)
 }
 
 
